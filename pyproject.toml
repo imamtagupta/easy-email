@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "easy_email_env"
+version = "0.1.0"
+description = ""
+authors = ["Mamta Gupta <mamtag962000@gmail.com>"]
+readme = "README.md"
+packages = [{include = "easy_email"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
